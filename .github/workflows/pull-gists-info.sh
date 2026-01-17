@@ -14,7 +14,7 @@ echo $gists |
     (.html_url) as $url |
     (.description // "") as $desc |
 
-    "- [**\($name)**](\($url))"
+    "- [**\($name)**](\($url))  "
     + "\n"
     + (if $desc != "" then "\($desc)\n" else "" end)
   '
