@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo "<!-- This file is generated automatically. Manual edits will be overwritten -->"
 echo "# my github gists"
 echo ""
 
