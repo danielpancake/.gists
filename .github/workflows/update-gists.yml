@@ -17,8 +17,10 @@ jobs:
 
       - name: Generate gists markdown
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: |
+          gh auth status
+
           chmod +x .github/workflows/pull-gists-info.sh
           .github/workflows/pull-gists-info.sh > README.md
 
