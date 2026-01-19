@@ -18,4 +18,3 @@ echo $gists |
     + "\n"
     + (if $desc != "" then "\($desc)\n" else "" end)
   '
-
