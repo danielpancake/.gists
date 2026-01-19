@@ -1,0 +1,8 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force specific files to always use LF
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.md   text eol=lf
